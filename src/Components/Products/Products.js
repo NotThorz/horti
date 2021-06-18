@@ -16,7 +16,7 @@ const Products = () => {
             }
         </Grid>
         <div >
-            <a href="#products" alt="produit"><button className="btn">See More Products</button></a>
+            <a href="#products" alt="produit" className="seemore"><p>See More Products</p></a>
         </div>
     </main>
     

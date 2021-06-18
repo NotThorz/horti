@@ -2,7 +2,7 @@ import React from 'react'
 import './ContactForm.css'
 const ContactForm = () => {
     return (
-        <div className="main" style={{backgroundImage: 'linear-gradient(rgba(0, 0, 0, 1),rgba(0, 100, 0, 0.6))'}}>
+        <div className="main" style={{backgroundImage: 'linear-gradient(to right,rgba(0, 100, 0, 0.9),rgba(0, 100, 0, 0.6))'}}>
             <h1 className="contact__h">
                 Contact us
             </h1>

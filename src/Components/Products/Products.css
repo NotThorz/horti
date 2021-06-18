@@ -1,6 +1,5 @@
-.btn {
-  background-image: linear-gradient(rgba(0, 100, 0, 1), rgba(0, 0, 0, 1));
-  color: white;
+.seemore {
+  color: black;
   padding: 12px;
   width: 100%;
   text-decoration: underline;
@@ -10,6 +9,6 @@
   text-align: center;
   font-size: medium;
 }
-.btn:hover {
-  background-color: black;
+.seemore:hover {
+  color: grey;
 }
