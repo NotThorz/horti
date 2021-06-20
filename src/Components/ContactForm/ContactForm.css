@@ -1,6 +1,9 @@
-.main__form {
-  margin-left: 20%;
-  color: white;
+.contact__main {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 100, 0, 0.9),
+    rgba(0, 100, 0, 0.6)
+  );
 }
 .main__btn {
   padding: 10px 30px;
@@ -15,7 +18,7 @@
   color: white;
   font-weight: 100;
   border-top: 1px solid grey;
-  font-size: large;
+  font-size: 30px;
   text-decoration: underline;
   text-underline-offset: 5px;
   margin-bottom: 5px;
@@ -26,8 +29,13 @@
 .contact__ul {
 }
 .contact__ul > li {
+  font-size: large;
+
   color: white;
   padding: 5px;
+}
+.contact__ul > li:not(:last-child) {
+  margin-bottom: 25px;
 }
 .contact__ul > li:hover {
   text-shadow: 2px 2px black;

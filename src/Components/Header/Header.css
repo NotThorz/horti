@@ -59,6 +59,9 @@
     display: block;
     margin-right: 30px;
   }
+  .SearchMore {
+    margin-right: 8px;
+  }
 }
 @media screen and (max-width: 709px) {
   .header__nav.responsive {
@@ -93,7 +96,8 @@
     max-width: 30%;
     margin-left: 0;
   }
-  .header__search {
-    margin-right: 20px;
+
+  .SearchMore {
+    margin-right: 8px;
   }
 }
