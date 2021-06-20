@@ -1,5 +1,6 @@
 import {React,useState} from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom'
 const Header = () => {
     let [See,setSee]=useState("See More")
     let [isActive,setActive]=useState("header__nav")
@@ -16,11 +17,11 @@ const Header = () => {
     return (
         <div className={isActive} id="myTopnav" >
             <a href='/' className='header__home'>HORTI-PLANTES</a>
-            <a href='/Products' className='header__products'>Products</a>
+            <Link to='/Products' className='header__products'>Products</Link>
             <a href='/#About' className='header__about'>About</a>
             <a href='/#ContactForm' className='header__contact'>Contact </a>
-            <a href='/Products' style={{float: "right",
-  marginright: "2px"}} className="SearchMore">Search For Items</a>
+            <Link to='/Products' style={{float: "right",
+  marginright: "2px"}} className="SearchMore">Search For Items</Link>
             <a href="#dropdown" className="icon" onClick={ClickHandler} style={{textDecoration:"none"}}>{See}</a>
         </div>
     )

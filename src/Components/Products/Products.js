@@ -3,6 +3,7 @@ import { ProductSet } from './ProductSet'
 import  {Grid}  from '@material-ui/core';
 import './Products.css'
 import Product from './Product';
+import { Link } from 'react-router-dom';
 const Products = () => {
     return (
     <main>
@@ -16,7 +17,7 @@ const Products = () => {
             }
         </Grid>
         <div >
-            <a href="/Products" alt="produit" className="seemore"><p>See More Products</p></a>
+            <Link to="/Products" alt="produit" className="seemore"><p>See More Products</p></Link>
         </div>
     </main>
     
