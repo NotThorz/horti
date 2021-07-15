@@ -21,7 +21,7 @@ const Home = () => {
       {/* products Set */}
       <div className="app__products" id="Products">
         <h1>
-        Some Of Our Products
+        Quelques Produits
         </h1>
       <Products />
       </div>

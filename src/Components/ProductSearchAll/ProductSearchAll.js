@@ -16,7 +16,7 @@ const ProductSearchAll = () => {
     return (
         <div className="maindiv">
             <div className="input__div">
-            <input type="text" placeholder="Search.."
+            <input type="text" placeholder="Chercher .."
             onChange={(event)=>{
                 SetSearchTerm(event.target.value)
             }} /></div>   
@@ -27,19 +27,8 @@ const ProductSearchAll = () => {
                 return(
                    <SingleProduct product={product} />
                 )
-            })}
-            
-            
-            
-        
-            
+            })}          
         </div>
-
-             
-             
-             
-             
-
     )
 }
 

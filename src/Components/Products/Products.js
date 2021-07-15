@@ -20,7 +20,7 @@ const Products = () => {
                 <Link to="/Products" alt="produit" className="seemore" onClick={window.onbeforeunload = function () {
                     window.scrollTo(0, 0);
                 }}
-                ><p>See More Products</p></Link>
+                ><p>Voir Plus</p></Link>
             </div>
         </main >
 
